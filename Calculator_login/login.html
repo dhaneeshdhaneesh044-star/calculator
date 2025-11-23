@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+    }
+    #outer{
+          height: 100vh;
+        background-color: sienna;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+          background: url(https://e1.pxfuel.com/desktop-wallpaper/721/613/desktop-wallpaper-abstract-login-page-thumbnail.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+    }
+    #inner{
+        height: 200px;
+        width: 300px;
+        
+       
+        border-radius: 15%;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        gap: 12px;
+        letter-spacing: 2px;
+        padding: 20px;
+        font-weight: bold;
+        
+      
+        margin-bottom: 80px;
+        color: black;
+    }
+    #id{
+        height: 20px;
+        width: 200px;
+    }
+</style>
+<body>
+    
+    <div id="outer">
+        <h1>login page</h1>
+    
+        <div id="inner">
+            <label for="">name</label>
+            <input type="text" id="id" placeholder="name">
+            <label for="">email</label>
+            <input type="email" id="id" placeholder="emali"pattern=".*@gmail.com"  required  >
+            <label for="">password</label>
+            <input type="password" id="id" placeholder="password"><br>
+            <button id="id"><a href="file:///C:/Users/dhaneesh/Desktop/web%20tech/calculator/Calculator/calculator_dashboard/dashboard.html">login</a></button>
+
+        </div>
+    </div>
+</body>
+</html>
